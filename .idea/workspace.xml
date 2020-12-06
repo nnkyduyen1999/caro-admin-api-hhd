@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e3aa47-7579-41a3-950a-4e11b7d7171f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/component/auth/authApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/component/auth/authController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/user/userApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/user/userApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/user/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/user/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/user/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/user/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/auth/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/auth/authController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
