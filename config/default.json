@@ -1,5 +1,5 @@
 {
-  "mongoURI": "mongodb+srv://user:00000@cluster0.b3tof.mongodb.net/test?authSource=admin&replicaSet=atlas-jtr3mq-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
+  "mongoURI": "mongodb+srv://user:00000@cluster0.b3tof.mongodb.net/CaroGame?retryWrites=true&w=majority",
   "hashNumber": 10,
   "appURI": "http://localhost:3000/"
 }
