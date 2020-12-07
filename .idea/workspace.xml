@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e3aa47-7579-41a3-950a-4e11b7d7171f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/component/auth/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/auth/authController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/user/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/user/userModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../caro-admin-hhd" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,6 +71,7 @@
       <workItem from="1607247528292" duration="860000" />
       <workItem from="1607270527411" duration="1050000" />
       <workItem from="1607271667538" duration="148000" />
+      <workItem from="1607325019245" duration="3882000" />
     </task>
     <servers />
   </component>
@@ -90,26 +95,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607274391061" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607271808569">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607325022243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607271808569" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1607272433905">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607325022243" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1607278753390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607272433905" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1607272433905">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607278753390" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1607278753390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607272433905" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1607272433905">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607278753390" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1607278753390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607272433905" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1607272433905">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607278753390" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1607278753390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607272433905" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607278753390" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607277876071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
