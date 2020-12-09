@@ -1,4 +1,4 @@
-const User = require('../User/userModel')
+const User = require('./userModel')
 
 module.exports = {
     loadById: async (req, res, next) => {
