@@ -13,36 +13,30 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e3aa47-7579-41a3-950a-4e11b7d7171f" name="Default Changelist" comment="">
+    <list default="true" id="f9e58046-d1da-4247-94f0-3d5d4c8ddb99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/user/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/user/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="tsconfig.json" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1lHIKbiyrfiNnEJaO6dZfy206po" />
+  <component name="ProjectId" id="1lQTHppw2iuqhknnmppuEwnRqw4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../caro-admin-hhd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,15 +57,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25e3aa47-7579-41a3-950a-4e11b7d7171f" name="Default Changelist" comment="" />
-      <created>1607247526913</created>
+      <changelist id="f9e58046-d1da-4247-94f0-3d5d4c8ddb99" name="Default Changelist" comment="" />
+      <created>1607528229390</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607247526913</updated>
-      <workItem from="1607247528292" duration="860000" />
-      <workItem from="1607270527411" duration="1050000" />
-      <workItem from="1607271667538" duration="148000" />
-      <workItem from="1607325019245" duration="3882000" />
+      <updated>1607528229390</updated>
+      <workItem from="1607528230454" duration="6000" />
+      <workItem from="1607528295859" duration="956000" />
     </task>
     <servers />
   </component>
@@ -91,33 +83,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607274391061">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607523928832">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607274391061" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607325022243">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607523928832" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1607528730774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607325022243" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1607278753390">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607528730774" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1607528730774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607278753390" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1607278753390">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607528730774" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1607528730774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607278753390" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1607278753390">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607528730774" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1607528730774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607278753390" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1607278753390">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607278753390" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607277876071">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607277876071" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607528730774" />
   </component>
 </project>
