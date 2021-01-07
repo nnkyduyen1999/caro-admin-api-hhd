@@ -18,4 +18,16 @@ module.exports = {
       res.send(err);
     }
   },
+
+  allUser: async (req, res, next) => {
+    try {
+      const users = await User.find(
+        { isAdmin: false },
+        { password: 0, isAdmin: 0 }
+      );
+      res.send(users);
+    } catch (err) {
+      res.send(err);
+    }
+  },
 };
