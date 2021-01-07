@@ -30,4 +30,12 @@ module.exports = {
       res.send(err);
     }
   },
+
+  search: async (req, res, next) => {
+    const keyword = req.query.keyword;
+
+    const users = await User.find({ $or: [{ username: {$regex : `.*${keyword}.*`}}, { email: {$regex : `.*${keyword}.*`}}]});
+
+    res.status(200).json({users});
+  },
 };

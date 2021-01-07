@@ -6,7 +6,11 @@ router.get('/all', userController.allUser);
 
 router.get('/', userController.loadById);
 
+router.get('/search', userController.search);
+
 router.get('/:id', userController.getUserById);
+
+
 
 
 
