@@ -34,7 +34,10 @@ module.exports = {
   search: async (req, res, next) => {
     const keyword = req.query.keyword;
 
-    const users = await User.find({ $or: [{ username: {$regex : `.*${keyword}.*`}}, { email: {$regex : `.*${keyword}.*`}}]});
+    const users = await User.find(
+        { $and: [{$or: [{username: {$regex: `.*${keyword}.*`}}, {email: {$regex: `.*${keyword}.*`}}]}, {isAdmin: false}]},
+        {password: 0, isAdmin: 0}
+        );
 
     res.status(200).json({users});
   },
