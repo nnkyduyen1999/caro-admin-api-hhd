@@ -10,8 +10,8 @@ module.exports = {
         if (user.length === 0)
             return res.status(400).send({message: "email does not exist"})
 
-        // const result = bcrypt.compareSync(password, user[0].password);
-        const result = password === user[0].password;
+        const result = bcrypt.compareSync(password, user[0].password);
+        // const result = password === user[0].password;
         if (!result) {
             return res.status(400).send({message: "password wrong"})
         }

@@ -25,7 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e58046-d1da-4247-94f0-3d5d4c8ddb99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/auth/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/auth/authController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/GIT/retro-project/Source/retro-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../caro-admin-hhd" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,6 +63,7 @@
       <updated>1607528229390</updated>
       <workItem from="1607528230454" duration="6000" />
       <workItem from="1607528295859" duration="4092000" />
+      <workItem from="1610073831056" duration="276000" />
     </task>
     <servers />
   </component>
@@ -82,10 +83,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607531929397">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610073927123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607531929397" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610073927123" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1607528730774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
