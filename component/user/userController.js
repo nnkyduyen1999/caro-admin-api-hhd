@@ -42,8 +42,9 @@ module.exports = {
     },
 
     blockUser: async (req, res, next) => {
-        const userId = req.query.id;
+        const userId = req.params.id;
         const user = await User.findById(userId);
+        console.log(user)
         if(user) {
             User.update({_id: userId}, {isBlock: !user.isBlock})
                 .then(response => {
