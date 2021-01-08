@@ -11,7 +11,6 @@ module.exports = {
             return res.status(400).send({message: "email does not exist"})
 
         const result = bcrypt.compareSync(password, user[0].password);
-        // const result = password === user[0].password;
         if (!result) {
             return res.status(400).send({message: "password wrong"})
         }
@@ -21,7 +20,6 @@ module.exports = {
             return res.status(400).send({message: "you dont have permission to login this page"})
         }
 
-        // console.log(user[0]);
         const token = jwt.sign({_id: user[0]._id}, process.env.ACCESS_TOKEN_SECRET);
 
         return res.status(200).send({

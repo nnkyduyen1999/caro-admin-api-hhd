@@ -4,14 +4,10 @@ const userController = require('./userController');
 
 router.get('/all', userController.allUser);
 
-router.get('/', userController.loadById);
-
 router.get('/search', userController.search);
 
 router.get('/:id', userController.getUserById);
 
-
-
-
+router.get('/:id/block', userController.blockUser);
 
 module.exports = router;
