@@ -12,13 +12,17 @@ module.exports = {
         // console.log(game)
         const xPlayer = await userDAL.getUsernameById(game.xPlayer);
         const oPlayer = await userDAL.getUsernameById(game.oPlayer)
+        const gameWithMessage = {...game._doc}
+        gameWithMessage.messages = gameWithMessage.history.length === 0 ? []
+            : gameWithMessage.history[gameWithMessage.history.length-1].messages;
+        delete gameWithMessage.history;
         gamesWithUsername.push({
-          ...game._doc,
+          ...gameWithMessage,
           xPlayerUsername: xPlayer ? xPlayer.username : "",
           oPlayerUsername: oPlayer ? oPlayer.username : "",
         })
       }
-      // console.log("games", gamesWithUsername);
+      console.log("games", gamesWithUsername);
       res.status(200).send(gamesWithUsername);
     } catch (err) {
       res.send(err);
