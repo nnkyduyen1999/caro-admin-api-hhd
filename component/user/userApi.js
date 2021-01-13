@@ -10,4 +10,7 @@ router.get('/:id', userController.getUserById);
 
 router.get('/:id/block', userController.blockUser);
 
+router.get('/finished-game/:id', userController.getFinishedGamesById);
+
+
 module.exports = router;

@@ -1,4 +1,6 @@
 const User = require("./userModel");
+const GameDAL = require("../game/gameDAL");
+const UserDAL = require("./userDAL");
 
 module.exports = {
     getUserById: async (req, res, next) => {
@@ -54,4 +56,34 @@ module.exports = {
             res.status(400).json({message: 'user not found'})
         }
     },
+    getFinishedGamesById: async (req, res, next) => {
+        try {
+          const listGameFromDB = await GameDAL.getFinishedGamesByUserIdDAL(
+            req.params.id
+          );
+          const newListGame = await Promise.all(
+            listGameFromDB.map(async (game) => {
+              console.log(game);
+              const xName = await UserDAL.loadUsernameById(game.xPlayer);
+              const oName = await UserDAL.loadUsernameById(game.oPlayer);
+              return {
+                roomId: game.roomId,
+                xPlayer: game.xPlayer,
+                oPlayer: game.oPlayer,
+                xUsername: xName ? xName.username : ``,
+                oUsername: oName ? oName.username : ``,
+                winner: game.winner,
+                time: game.createTime,
+              };
+            })
+          );
+          //console.log("new list", newListGame);
+          if (newListGame) {
+            res.status(200).send(newListGame);
+          }
+        } catch (err) {
+            console.log(err);
+          res.status(404).send({ message: "Error happening ..." });
+        }
+      },
 };
