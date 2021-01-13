@@ -27,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', require('./component/auth/authApi'));
 app.use('/users', passport.authenticate('jwt', {session: false}), require('./component/user/userApi'));
+app.use('/games', passport.authenticate('jwt', {session: false}), require('./component/game/gameApi'));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
