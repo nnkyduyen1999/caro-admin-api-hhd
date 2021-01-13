@@ -47,7 +47,7 @@ module.exports = {
         const userId = req.params.id;
         const user = await User.findById(userId);
         console.log(user)
-        if(user) {
+        if (user) {
             User.update({_id: userId}, {isBlock: !user.isBlock})
                 .then(response => {
                     res.status(200).json({message: 'OK', isBlock: !user.isBlock})
@@ -58,32 +58,33 @@ module.exports = {
     },
     getFinishedGamesById: async (req, res, next) => {
         try {
-          const listGameFromDB = await GameDAL.getFinishedGamesByUserIdDAL(
-            req.params.id
-          );
-          const newListGame = await Promise.all(
-            listGameFromDB.map(async (game) => {
-              console.log(game);
-              const xName = await UserDAL.loadUsernameById(game.xPlayer);
-              const oName = await UserDAL.loadUsernameById(game.oPlayer);
-              return {
-                roomId: game.roomId,
-                xPlayer: game.xPlayer,
-                oPlayer: game.oPlayer,
-                xUsername: xName ? xName.username : ``,
-                oUsername: oName ? oName.username : ``,
-                winner: game.winner,
-                time: game.createTime,
-              };
-            })
-          );
-          //console.log("new list", newListGame);
-          if (newListGame) {
-            res.status(200).send(newListGame);
-          }
+            const listGameFromDB = await GameDAL.getFinishedGamesByUserIdDAL(
+                req.params.id
+            );
+            const newListGame = await Promise.all(
+                listGameFromDB.map(async (game) => {
+                    console.log(game);
+                    const xName = await UserDAL.loadUsernameById(game.xPlayer);
+                    const oName = await UserDAL.loadUsernameById(game.oPlayer);
+                    return {
+                        roomId: game.roomId,
+                        xPlayer: game.xPlayer,
+                        oPlayer: game.oPlayer,
+                        xUsername: xName ? xName.username : ``,
+                        oUsername: oName ? oName.username : ``,
+                        winner: game.winner,
+                        time: game.createTime,
+                        messages: game.history.length === 0 ? [] : game.history[game.history.length-1].messages,
+                    };
+                })
+            );
+            //console.log("new list", newListGame);
+            if (newListGame) {
+                res.status(200).send(newListGame);
+            }
         } catch (err) {
             console.log(err);
-          res.status(404).send({ message: "Error happening ..." });
+            res.status(404).send({message: "Error happening ..."});
         }
-      },
+    },
 };
