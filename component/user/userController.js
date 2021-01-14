@@ -74,7 +74,8 @@ module.exports = {
                         oUsername: oName ? oName.username : ``,
                         winner: game.winner,
                         time: game.createTime,
-                        messages: game.history.length === 0 ? [] : game.history[game.history.length-1].messages,
+                        messageList: game.history.length === 0 ? [] : game.history[game.history.length-1].messages,
+                        // messages: []
                     };
                 })
             );
